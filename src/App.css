@@ -1,0 +1,317 @@
+.container {
+  display: flex !important;
+  padding-left: 15px;
+}
+.container p {
+  margin-bottom: 10px;
+}
+.left {
+  padding: 25px !important;
+  width: 75% !important;
+  margin-right: 50px !important;
+}
+.right {
+  padding: 25px !important;
+  background-image: linear-gradient(94deg, #f5f7f8, #effcfc) !important;
+  width: 25% !important;
+}
+.range-wrap {
+  position: relative !important;
+  margin: 20px auto 3rem !important;
+}
+.range {
+  width: 100% !important;
+}
+.bubble {
+  background: #144074;
+  color: white;
+  padding: 0px 12px;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  top: -23px;
+  transform: translateX(-50%);
+}
+.bubble ::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #144074;
+  top: -1px;
+  left: 50%;
+}
+
+/* TEXT SECTION */
+.fa-solid {
+  margin-right: 6px;
+}
+.fa-xmark {
+  padding-right: 4px;
+}
+.label {
+  display: block !important;
+  margin-top: 10px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: black !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
+.question {
+  display: inline-block !important;
+  width: 45% !important;
+  margin-bottom: 38px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: black !important;
+  font-weight: 400 !important;
+}
+.question-btn {
+  display: inline-block !important;
+  width: 50% !important;
+  margin-bottom: 38px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: black !important;
+  font-weight: 400 !important;
+}
+.input {
+  width: 100% !important;
+  padding: 3% !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.spacing {
+  margin-right: 64px !important;
+}
+.font {
+  font-family: 'Open Sans', sans-serif !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+.font1 {
+  font-family: 'Open Sans', sans-serif !important;
+  color: black !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+.icon-class {
+  display: block;
+  margin: 25px 0 10px;
+}
+#years,
+#years:focus {
+  background-color: transparent;
+  border: none;
+  color: #144074;
+  outline: 0;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  width: calc(100% - 20px);
+  padding: 7px 0;
+  border-bottom: 1px solid #144074;
+}
+
+.left .roi-btn-yes,
+.left .roi-btn-no {
+  padding: 7px 20px !important;
+  border-color: #144074 !important;
+  border-width: 0.6px !important;
+  margin-left: 12px !important;
+  border-style: solid !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  border-radius: 0 !important;
+  text-shadow: 0 0 0 !important;
+}
+/* .left .roi-btn-yes {
+  background-color: #2d79a6;
+  color: #ffffff;
+}
+.left .roi-btn-no {
+  background-color: #ffffff;
+  color: #000000;
+}
+.left .roi-btn-yes:hover,
+.left .roi-btn-no:hover {
+  background-color: #2d79a6;
+  color: #ffffff;
+} */
+.question-checkbox {
+  font-size: 14px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400 !important;
+}
+.roi-chkbox {
+  margin-bottom: 25px !important;
+}
+.title1 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700 !important;
+  color: #c39d46 !important;
+  font-size: 16px !important;
+}
+.year {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #144074 !important;
+}
+
+.benefits li {
+  color: #000000;
+  font-weight: 400 !important;
+  font-family: 'open-sans' !important;
+  margin-bottom: 5px;
+}
+
+.answer {
+  border-top-style: none !important;
+  border-left-style: none !important;
+  border-right-style: none !important;
+  border-bottom-style: solid !important;
+  border-width: 1px !important;
+  border-color: #000000 !important;
+  padding: 3% !important;
+
+  background-color: transparent !important;
+  color: #144074 !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.error-line {
+  display: none;
+  margin: 0 !important;
+  font-size: 15px;
+  color: red;
+  position: absolute;
+}
+.output-section {
+  margin: 30px 0;
+}
+.left datalist {
+  display: flex;
+  margin-left: 5px;
+  justify-content: space-between;
+  color: black;
+  width: 100%;
+}
+
+.right .get-in-touch {
+  display: block;
+  padding: 6px;
+  background-color: #c39d46;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.check-box-style {
+  display: inline-block;
+  width: 24%;
+}
+.benefit {
+  font-size: 14px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400 !important;
+  color: #000000;
+  width: 100% !important;
+  display: inline !important;
+}
+.spacer {
+  margin-bottom: 10px !important;
+}
+@media (min-width: 452px) and (max-width: 786px) {
+  .container p {
+    margin-bottom: 10px;
+  }
+  .left {
+    padding: 25px !important;
+    width: 65% !important;
+    margin-right: 50px !important;
+  }
+  .right {
+    padding: 25px !important;
+
+    width: 35% !important;
+  }
+  .spacing {
+    margin-right: 29px !important;
+  }
+  .question-btn {
+    display: inline-block !important;
+    width: 40% !important;
+    margin-bottom: 38px !important;
+    font-size: 14px !important;
+  }
+  .check-box-style {
+    width: 49%;
+  }
+
+  .label {
+    font-size: 14px !important;
+  }
+  .question-chk {
+    width: 100% !important;
+  }
+  .answer {
+    font-size: 16px !important;
+  }
+  .right .get-in-touch {
+    font-size: 16px;
+    padding: 6px;
+  }
+}
+@media screen and (max-width: 451px) {
+  .container {
+    display: block !important;
+    padding-left: 0px;
+  }
+  .left {
+    padding: 18px !important;
+    width: 100% !important;
+  }
+  .right {
+    width: 100% !important;
+  }
+  .spacing {
+    margin-right: 0px !important;
+  }
+  .question {
+    width: 100% !important;
+  }
+  .question-btn {
+    display: inline-block !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .check-box-style {
+    width: 100%;
+  }
+  .label {
+    font-size: 14px !important;
+  }
+  .question-chk {
+    font-size: 14px !important;
+  }
+  .right .get-in-touch {
+    font-size: 16px;
+    padding: 6px;
+  }
+  .left .roi-btn-yes {
+    margin-left: 0px !important;
+  }
+  .left .roi-btn-no {
+    margin-left: 16px !important;
+  }
+  .range-wrap {
+    margin-bottom: 2rem !important;
+  }
+}
